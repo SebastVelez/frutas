@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f8ff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #ff6b6b;
+  text-align: center;
+  border-bottom: 2px solid #ff6b6b;
+  padding-bottom: 10px;
+}
+
+.fruta {
+  margin: 20px 0;
+  padding: 15px;
+  border-left: 4px solid #4caf50;
+  background-color: #f9f9f9;
+}
+
+.fruta h2 {
+  color: #4caf50;
+  margin-top: 0;
+}
+
+.fruta p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.beneficios {
+  color: #2196f3;
+  font-weight: bold;
+}
