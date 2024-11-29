@@ -26,6 +26,11 @@ h1 {
   padding: 15px;
   border-left: 4px solid #4caf50;
   background-color: #f9f9f9;
+  transition: transform 0.2s;
+}
+
+.fruta:hover {
+  transform: translateX(10px);
 }
 
 .fruta h2 {
@@ -41,4 +46,16 @@ h1 {
 .beneficios {
   color: #2196f3;
   font-weight: bold;
+}
+
+.categoria {
+  background-color: #e8f5e9;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.categoria h3 {
+  color: #2e7d32;
+  margin-top: 0;
 }
